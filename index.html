@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Food Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+<!--    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-utensils me-2"></i>Delicious Food
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+-->
+    <!-- Hero Section -->
+<!--    <header class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-4">DELICIOUS FOOD ARTICLES</h1>
+            <p class="lead mb-4">Discover the most amazing flavors and culinary experiences</p>
+            <a href="#menu" class="btn btn-order btn-lg px-4 py-2">Explore Our Menu</a>
+        </div>
+    </header>
+-->
+    <!-- Menu Section -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Delicious Food Menu</h2>
+
+            <div class="row g-4">
+                <!-- Menu Item 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="menu-card">
+                        <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg" class="menu-img" alt="Burger and Fries">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h3 class="card-title">Classic Burger & Fries</h3>
+                                <span class="price">$12.99</span>
+                            </div>
+                            <p class="card-text">Juicy beef patty with fresh vegetables, cheese, and our special sauce. Served with golden crispy fries.</p>
+                            <button class="btn btn-order w-100 mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="menu-card">
+                        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" class="menu-img" alt="Healthy Bowl">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h3 class="card-title">Healthy Veggie Bowl</h3>
+                                <span class="price">$14.99</span>
+                            </div>
+                            <p class="card-text">A nutritious mix of quinoa, roasted vegetables, avocado, and seeds with our signature dressing.</p>
+                            <button class="btn btn-order w-100 mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="menu-card">
+                        <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg" class="menu-img" alt="Tacos">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h3 class="card-title">Mexican Tacos</h3>
+                                <span class="price">$11.99</span>
+                            </div>
+                            <p class="card-text">Authentic Mexican tacos with your choice of filling, fresh salsa, guacamole, and lime wedges.</p>
+                            <button class="btn btn-order w-100 mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<!--    <section id="about" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="section-title">About Our Kitchen</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="lead">We believe in creating memorable dining experiences with passion and creativity.</p>
+                    <p>Our chefs combine traditional techniques with innovative approaches to bring you dishes that delight all your senses. We source our ingredients from local farmers and producers to ensure freshness and support our community.</p>
+                    <p>Every dish tells a story, and we invite you to become part of ours. From our family to yours, welcome to a world of flavor.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="p-2">
+                            <div class="bg-orange rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px; background-color: var(--primary-orange)">
+                                <i class="fas fa-cheese fa-2x"></i>
+                            </div>
+                            <p class="mt-2 text-center">Fresh Ingredients</p>
+                        </div>
+                        <div class="p-2">
+                            <div class="bg-orange rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px; background-color: var(--primary-orange)">
+                                <i class="fas fa-chef-hat fa-2x"></i>
+                            </div>
+                            <p class="mt-2 text-center">Expert Chefs</p>
+                        </div>
+                        <div class="p-2">
+                            <div class="bg-orange rounded-circle d-flex align-items-center justify-content-center" style="width: 120px; height: 120px; background-color: var(--primary-orange)">
+                                <i class="fas fa-heart fa-2x"></i>
+                            </div>
+                            <p class="mt-2 text-center">Made with Love</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- Testimonials -->
+<!--    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"The best burger I've ever had! The flavors were incredible and the service was exceptional."</p>
+                        <p class="testimonial-author">- Michael Johnson</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"The veggie bowl is my go-to lunch. So fresh and satisfying. I recommend this place to everyone!"</p>
+                        <p class="testimonial-author">- Sarah Williams</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Authentic Mexican flavors that remind me of my grandmother's cooking. Simply amazing!"</p>
+                        <p class="testimonial-author">- Carlos Mendoza</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- Footer -->
+<!--    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-4">Delicious Food</h5>
+                    <p>Serving quality food since 2010. Our passion for culinary excellence drives everything we do.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-4">Hours</h5>
+                    <p>Monday - Friday: 11am - 10pm</p>
+                    <p>Saturday: 10am - 11pm</p>
+                    <p>Sunday: 10am - 8pm</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-4">Contact Us</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> 123 Food Street, Culinary City</p>
+                    <p><i class="fas fa-phone me-2"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@deliciousfood.com</p>
+                </div>
+            </div>
+            -->
+            <hr class="mt-4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0">© 2025 Delicious Food. All rights reserved.</p>
+                    <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by Justin Wold</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!--All sections commented out are for future use, if this project expands as i just wanted to try and make routine of the skills i know and want to practice. -->
